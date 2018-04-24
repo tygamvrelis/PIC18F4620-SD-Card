@@ -5,11 +5,11 @@ is preserved even when power is turned off (this relies on the phenomena of floa
 a slave device, and so it is communicated with my sending it commands as the master. When a SD card is first
 powered up, it will be unresponsive to any commands until it is initialized. Initialization is a "handshake" that
 is highly specific; in fact, all commands are sufficiently specific that there is a specification detailing how to
-implemented them. The implementation in this sample code follows the SD Physical Layer Simplified Specification 
+implement them. The implementation in this sample code follows the SD Physical Layer Simplified Specification 
 Version 6.00.
 
 ## Contents
-This project contains source files (in the src folder) for communication with a SD card via SPi using a PIC18F4620. Implementations of initialization, single block read, multiple block read, single block write, multiple block write, and erase are provided.
+This project contains source files (in the src folder) for communication with a SD card via SPI using a PIC18F4620. Implementations of initialization, single block read, multiple block read, single block write, multiple block write, and erase are provided.
 
 Two projects to demonstrate the library are provided in the demo folder. These demos make use of printing characters to a HD44780-based character LCD.
 
