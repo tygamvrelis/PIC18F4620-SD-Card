@@ -2,7 +2,7 @@
 
 SD cards are capable of storing large amounts of memory in a "non-volatile" fashion, meaning that the information
 is preserved even when power is turned off (this relies on the phenomena of floating-gate MOSFETs). An SD card is
-a slave device, and so it is communicated with my sending it commands as the master. When a SD card is first
+a slave device, and so it is communicated with by sending it commands as the master. When a SD card is first
 powered up, it will be unresponsive to any commands until it is initialized. Initialization is a "handshake" that
 is highly specific; in fact, all commands are sufficiently specific that there is a specification detailing how to
 implement them. The implementation in this sample code follows the SD Physical Layer Simplified Specification 
