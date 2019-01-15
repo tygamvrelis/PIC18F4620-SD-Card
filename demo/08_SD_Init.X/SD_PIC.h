@@ -14,7 +14,7 @@
 
 /********************************* Includes **********************************/
 #include <xc.h>
-#include "../SPI/SPI_PIC.h"
+#include "SPI_PIC.h"
 
 /********************************** Macros ***********************************/
 #define CS_SD      LATEbits.LATE2   /**< SD card chip select                 */

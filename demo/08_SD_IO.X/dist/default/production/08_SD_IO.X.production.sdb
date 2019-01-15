@@ -1,0 +1,732 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4620 ]
+[d frameptr 4065 ]
+"57 D:\Users\Tyler\Documents\tyler\work\Prof Emami\Development Board Summer 2018\Development\samples\08_SD\08_SD_IO\08_SD_IO.X\main.c
+[e E2925 . `uc
+TYPE_SDSC 0
+TYPE_SDHC_SDXC 1
+TYPE_MMC 2
+]
+"44 D:\Users\Tyler\Documents\tyler\work\Prof Emami\Development Board Summer 2018\Development\samples\08_SD\08_SD_IO\08_SD_IO.X\SD_PIC.c
+[e E2925 . `uc
+TYPE_SDSC 0
+TYPE_SDHC_SDXC 1
+TYPE_MMC 2
+]
+"90 D:\Users\Tyler\Documents\tyler\work\Prof Emami\Development Board Summer 2018\Development\samples\08_SD\08_SD_IO\08_SD_IO.X\lcd.c
+[e E2958 . `uc
+LCD_SHIFT_LEFT 0
+LCD_SHIFT_RIGHT 1
+]
+"464 D:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\doprnt.c
+[v _printf printf `(i  1 e 2 0 ]
+"62 D:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 D:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 D:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 D:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"20 D:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"44 D:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"8 D:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"8 D:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"35 D:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\lltoft.c
+[v ___lltoft __lltoft `(f  1 e 3 0 ]
+"28 D:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+"10 D:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 D:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 D:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 D:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"28 D:\Users\Tyler\Documents\tyler\work\Prof Emami\Development Board Summer 2018\Development\samples\08_SD\08_SD_IO\08_SD_IO.X\lcd.c
+[v _pulse_e pulse_e `T(v  1 s 1 pulse_e ]
+"44
+[v _send_nibble send_nibble `(v  1 s 1 send_nibble ]
+"55
+[v _send_byte send_byte `(v  1 s 1 send_byte ]
+"64
+[v _lcdInst lcdInst `(v  1 e 1 0 ]
+"69
+[v _initLCD initLCD `(v  1 e 1 0 ]
+"102
+[v _putch putch `(v  1 e 1 0 ]
+"35 D:\Users\Tyler\Documents\tyler\work\Prof Emami\Development Board Summer 2018\Development\samples\08_SD\08_SD_IO\08_SD_IO.X\main.c
+[v _average average `(uc  1 e 1 0 ]
+"45
+[v _main main `(v  1 e 1 0 ]
+"47 D:\Users\Tyler\Documents\tyler\work\Prof Emami\Development Board Summer 2018\Development\samples\08_SD\08_SD_IO\08_SD_IO.X\SD_PIC.c
+[v _SD_SendDummyBytes SD_SendDummyBytes `(v  1 e 1 0 ]
+"55
+[v _SD_Command SD_Command `(uc  1 e 1 0 ]
+"97
+[v _SD_ACMD SD_ACMD `(uc  1 e 1 0 ]
+"104
+[v _SD_SingleBlockWrite SD_SingleBlockWrite `(uc  1 e 1 0 ]
+"153
+[v _SD_MBW_Start SD_MBW_Start `(v  1 e 1 0 ]
+"172
+[v _SD_MBW_Send SD_MBW_Send `(uc  1 e 1 0 ]
+"222
+[v _SD_MBW_Stop SD_MBW_Stop `(v  1 e 1 0 ]
+"239
+[v _SD_SingleBlockRead SD_SingleBlockRead `(uc  1 e 1 0 ]
+"284
+[v _SD_MBR_Start SD_MBR_Start `(uc  1 e 1 0 ]
+"313
+[v _SD_MBR_Receive SD_MBR_Receive `(v  1 e 1 0 ]
+"347
+[v _SD_MBR_Stop SD_MBR_Stop `(v  1 e 1 0 ]
+"353
+[v _SD_EraseBlocks SD_EraseBlocks `(v  1 e 1 0 ]
+"374
+[v _initSD initSD `(v  1 e 1 0 ]
+"14 D:\Users\Tyler\Documents\tyler\work\Prof Emami\Development Board Summer 2018\Development\samples\08_SD\08_SD_IO\08_SD_IO.X\SPI_PIC.c
+[v _spiTransfer spiTransfer `(uc  1 e 1 0 ]
+"29
+[v _spiSend spiSend `(v  1 e 1 0 ]
+"33
+[v _spiReceive spiReceive `(uc  1 e 1 0 ]
+"37
+[v _spiInit spiInit `(v  1 e 1 0 ]
+"1214 D:\Program Files (x86)\Microchip\xc8\v1.42\include\pic18f4620.h
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+[s S764 . 1 `uc 1 LATD0 1 0 :1:0 
+`uc 1 LATD1 1 0 :1:1 
+`uc 1 LATD2 1 0 :1:2 
+`uc 1 LATD3 1 0 :1:3 
+`uc 1 LATD4 1 0 :1:4 
+`uc 1 LATD5 1 0 :1:5 
+`uc 1 LATD6 1 0 :1:6 
+`uc 1 LATD7 1 0 :1:7 
+]
+"1241
+[s S773 . 1 `uc 1 LD0 1 0 :1:0 
+`uc 1 LD1 1 0 :1:1 
+`uc 1 LD2 1 0 :1:2 
+`uc 1 LD3 1 0 :1:3 
+`uc 1 LD4 1 0 :1:4 
+`uc 1 LD5 1 0 :1:5 
+`uc 1 LD6 1 0 :1:6 
+`uc 1 LD7 1 0 :1:7 
+]
+[u S782 . 1 `S764 1 . 1 0 `S773 1 . 1 0 ]
+[v _LATDbits LATDbits `VES782  1 e 1 @3980 ]
+[s S125 . 1 `uc 1 LATE0 1 0 :1:0 
+`uc 1 LATE1 1 0 :1:1 
+`uc 1 LATE2 1 0 :1:2 
+]
+"1343
+[s S129 . 1 `uc 1 LE0 1 0 :1:0 
+`uc 1 LE1 1 0 :1:1 
+`uc 1 LE2 1 0 :1:2 
+]
+[u S133 . 1 `S125 1 . 1 0 `S129 1 . 1 0 ]
+[v _LATEbits LATEbits `VES133  1 e 1 @3981 ]
+[s S652 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1854
+[s S661 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+[u S670 . 1 `S652 1 . 1 0 `S661 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES670  1 e 1 @3988 ]
+"2044
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+[s S355 . 1 `uc 1 TRISE0 1 0 :1:0 
+`uc 1 TRISE1 1 0 :1:1 
+`uc 1 TRISE2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 PSPMODE 1 0 :1:4 
+`uc 1 IBOV 1 0 :1:5 
+`uc 1 OBF 1 0 :1:6 
+`uc 1 IBF 1 0 :1:7 
+]
+"2294
+[s S364 . 1 `uc 1 RE0 1 0 :1:0 
+`uc 1 RE1 1 0 :1:1 
+`uc 1 RE2 1 0 :1:2 
+`uc 1 RE3 1 0 :1:3 
+]
+[u S369 . 1 `S355 1 . 1 0 `S364 1 . 1 0 ]
+[v _TRISEbits TRISEbits `VES369  1 e 1 @3990 ]
+"2430
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @3995 ]
+[s S292 . 1 `uc 1 TUN 1 0 :5:0 
+`uc 1 . 1 0 :1:5 
+`uc 1 PLLEN 1 0 :1:6 
+`uc 1 INTSRC 1 0 :1:7 
+]
+"2450
+[s S297 . 1 `uc 1 TUN0 1 0 :1:0 
+`uc 1 TUN1 1 0 :1:1 
+`uc 1 TUN2 1 0 :1:2 
+`uc 1 TUN3 1 0 :1:3 
+`uc 1 TUN4 1 0 :1:4 
+]
+[u S303 . 1 `S292 1 . 1 0 `S297 1 . 1 0 ]
+[v _OSCTUNEbits OSCTUNEbits `VES303  1 e 1 @3995 ]
+"4729
+[v _SSPCON1 SSPCON1 `VEuc  1 e 1 @4038 ]
+[s S99 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"4749
+[s S105 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[u S110 . 1 `S99 1 . 1 0 `S105 1 . 1 0 ]
+[v _SSPCON1bits SSPCON1bits `VES110  1 e 1 @4038 ]
+"4799
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @4039 ]
+[s S506 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_NOT_W 1 0 :1:2 
+]
+"4875
+[s S509 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 D_NOT_A 1 0 :1:5 
+]
+[s S512 . 1 `uc 1 BF 1 0 :1:0 
+`uc 1 UA 1 0 :1:1 
+`uc 1 R_nW 1 0 :1:2 
+`uc 1 S 1 0 :1:3 
+`uc 1 P 1 0 :1:4 
+`uc 1 D_nA 1 0 :1:5 
+`uc 1 CKE 1 0 :1:6 
+`uc 1 SMP 1 0 :1:7 
+]
+[s S521 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D 1 0 :1:5 
+]
+[s S526 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 A 1 0 :1:5 
+]
+[s S531 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA 1 0 :1:5 
+]
+[s S536 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_A 1 0 :1:5 
+]
+[s S541 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_WRITE 1 0 :1:2 
+]
+[s S544 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_ADDRESS 1 0 :1:5 
+]
+[s S547 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS 1 0 :1:5 
+]
+[s S552 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RW 1 0 :1:2 
+`uc 1 START 1 0 :1:3 
+`uc 1 STOP 1 0 :1:4 
+`uc 1 DA 1 0 :1:5 
+]
+[s S558 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 NOT_A 1 0 :1:5 
+]
+[u S563 . 1 `S506 1 . 1 0 `S509 1 . 1 0 `S512 1 . 1 0 `S521 1 . 1 0 `S526 1 . 1 0 `S531 1 . 1 0 `S536 1 . 1 0 `S541 1 . 1 0 `S544 1 . 1 0 `S547 1 . 1 0 `S552 1 . 1 0 `S558 1 . 1 0 ]
+[v _SSPSTATbits SSPSTATbits `VES563  1 e 1 @4039 ]
+"5027
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @4041 ]
+"5777
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+[s S318 . 1 `uc 1 SCS 1 0 :2:0 
+`uc 1 IOFS 1 0 :1:2 
+`uc 1 OSTS 1 0 :1:3 
+`uc 1 IRCF 1 0 :3:4 
+`uc 1 IDLEN 1 0 :1:7 
+]
+"5799
+[s S324 . 1 `uc 1 SCS0 1 0 :1:0 
+`uc 1 SCS1 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 IRCF0 1 0 :1:4 
+`uc 1 IRCF1 1 0 :1:5 
+`uc 1 IRCF2 1 0 :1:6 
+]
+[u S331 . 1 `S318 1 . 1 0 `S324 1 . 1 0 ]
+[v _OSCCONbits OSCCONbits `VES331  1 e 1 @4051 ]
+[s S715 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"6404
+[s S724 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S733 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S737 . 1 `S715 1 . 1 0 `S724 1 . 1 0 `S733 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES737  1 e 1 @4082 ]
+"7579
+[v _SSPIF SSPIF `VEb  1 e 0 @31987 ]
+"354 D:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\doprnt.c
+[v _dpowers dpowers `C[10]ul  1 s 40 dpowers ]
+"18 D:\Users\Tyler\Documents\tyler\work\Prof Emami\Development Board Summer 2018\Development\samples\08_SD\08_SD_IO\08_SD_IO.X\lcd.c
+[v _LCD_LINE2_ADDR LCD_LINE2_ADDR `Cuc  1 e 1 0 ]
+"27 D:\Users\Tyler\Documents\tyler\work\Prof Emami\Development Board Summer 2018\Development\samples\08_SD\08_SD_IO\08_SD_IO.X\main.c
+[v _writeBuffer writeBuffer `[512]uc  1 e 512 0 ]
+"14 D:\Users\Tyler\Documents\tyler\work\Prof Emami\Development Board Summer 2018\Development\samples\08_SD\08_SD_IO\08_SD_IO.X\SD_PIC.c
+[v _CMD0 CMD0 `Cuc  1 e 1 0 ]
+"15
+[v _CMD0CRC CMD0CRC `Cuc  1 e 1 0 ]
+"16
+[v _CMD1 CMD1 `Cuc  1 e 1 0 ]
+"17
+[v _CMD8 CMD8 `Cuc  1 e 1 0 ]
+"18
+[v _CMD8CRC CMD8CRC `Cuc  1 e 1 0 ]
+"19
+[v _CMD9 CMD9 `Cuc  1 e 1 0 ]
+"20
+[v _CMD10 CMD10 `Cuc  1 e 1 0 ]
+"21
+[v _CMD12 CMD12 `Cuc  1 e 1 0 ]
+"23
+[v _CMD16 CMD16 `Cuc  1 e 1 0 ]
+"24
+[v _CMD17 CMD17 `Cuc  1 e 1 0 ]
+"25
+[v _CMD18 CMD18 `Cuc  1 e 1 0 ]
+"26
+[v _CMD24 CMD24 `Cuc  1 e 1 0 ]
+"27
+[v _CMD25 CMD25 `Cuc  1 e 1 0 ]
+"28
+[v _CMD32 CMD32 `Cuc  1 e 1 0 ]
+"29
+[v _CMD33 CMD33 `Cuc  1 e 1 0 ]
+"30
+[v _CMD38 CMD38 `Cuc  1 e 1 0 ]
+"31
+[v _CMD55 CMD55 `Cuc  1 e 1 0 ]
+"32
+[v _CMD58 CMD58 `Cuc  1 e 1 0 ]
+"34
+[v _ACMD23 ACMD23 `Cuc  1 e 1 0 ]
+"35
+[v _ACMD41 ACMD41 `Cuc  1 e 1 0 ]
+"36
+[v _R1_READY_STATE R1_READY_STATE `Cuc  1 e 1 0 ]
+"37
+[v _R1_IDLE_STATE R1_IDLE_STATE `Cuc  1 e 1 0 ]
+"38
+[v _R1_ILLEGAL_COMMAND R1_ILLEGAL_COMMAND `Cuc  1 e 1 0 ]
+"39
+[v _START_BLOCK START_BLOCK `Cuc  1 e 1 0 ]
+"40
+[v _START_BLOCK_TOKEN START_BLOCK_TOKEN `Cuc  1 e 1 0 ]
+"41
+[v _STOP_TRAN STOP_TRAN `Cuc  1 e 1 0 ]
+[s S40 . 9 `ul 1 lastBlockWritten 4 0 `ul 1 MBW_startBlock 4 4 `uc 1 MBW_flag_first 1 8 ]
+"44
+[s S44 . 9 `ul 1 lastBlockRead 4 0 `ul 1 MBR_startBlock 4 4 `uc 1 MBR_flag_first 1 8 ]
+[s S48 . 46 `uc 1 SDversion 1 0 `E2925 1 Type 1 1 `uc 1 MID 1 2 `us 1 OID 2 3 `ul 1 PHML 4 5 `uc 1 PHMH 1 9 `uc 1 PRV 1 10 `ul 1 PSN 4 11 `us 1 MDT 2 15 `uc 1 CRC 1 17 `us 1 blockSize 2 18 `ul 1 numBlocks 4 20 `d 1 size 3 24 `uc 1 init 1 27 `S40 1 write 9 28 `S44 1 read 9 37 ]
+[v _SDCard SDCard `S48  1 e 46 0 ]
+"45 D:\Users\Tyler\Documents\tyler\work\Prof Emami\Development Board Summer 2018\Development\samples\08_SD\08_SD_IO\08_SD_IO.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"70
+[v main@i i `ul  1 a 4 110 ]
+"199
+[v main@avg avg `ul  1 a 4 103 ]
+"116
+[v main@numWrites numWrites `us  1 a 2 107 ]
+"115
+[v main@firstBlock firstBlock `uc  1 a 1 109 ]
+"68
+[v main@readBuffer readBuffer `[512]uc  1 s 512 readBuffer ]
+"241
+} 0
+"464 D:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\doprnt.c
+[v _printf printf `(i  1 e 2 0 ]
+{
+"528
+[v printf@val val `ul  1 a 4 34 ]
+"466
+[v printf@ap ap `[1]*.39v  1 a 2 38 ]
+"504
+[v printf@prec prec `i  1 a 2 32 ]
+"499
+[v printf@c c `c  1 a 1 41 ]
+"508
+[v printf@flag flag `uc  1 a 1 40 ]
+"464
+[v printf@f f `*.25Cuc  1 p 2 24 ]
+"1541
+} 0
+"102 D:\Users\Tyler\Documents\tyler\work\Prof Emami\Development Board Summer 2018\Development\samples\08_SD\08_SD_IO\08_SD_IO.X\lcd.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+[v putch@data data `uc  1 a 1 wreg ]
+[v putch@data data `uc  1 a 1 wreg ]
+[v putch@data data `uc  1 a 1 3 ]
+"105
+} 0
+"8 D:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+{
+"11
+[v ___llmod@counter counter `uc  1 a 1 21 ]
+"8
+[v ___llmod@dividend dividend `ul  1 p 4 13 ]
+[v ___llmod@divisor divisor `ul  1 p 4 17 ]
+"26
+} 0
+"374 D:\Users\Tyler\Documents\tyler\work\Prof Emami\Development Board Summer 2018\Development\samples\08_SD\08_SD_IO\08_SD_IO.X\SD_PIC.c
+[v _initSD initSD `(v  1 e 1 0 ]
+{
+"438
+[v initSD@i_498 i `uc  1 a 1 83 ]
+"509
+[v initSD@i_500 i `uc  1 a 1 81 ]
+"425
+[v initSD@i_497 i `uc  1 a 1 82 ]
+"569
+[v initSD@i_504 i `uc  1 a 1 85 ]
+"548
+[v initSD@tempSize_503 tempSize `ul  1 a 4 86 ]
+"535
+[v initSD@tempSize tempSize `ul  1 a 4 60 ]
+"523
+[v initSD@i_501 i `uc  1 a 1 84 ]
+"402
+[v initSD@i i `uc  1 a 1 80 ]
+"378
+[v initSD@arr_response arr_response `[16]uc  1 a 16 64 ]
+"469
+[v initSD@argument argument `ul  1 a 4 54 ]
+"377
+[v initSD@response response `uc  1 a 1 90 ]
+"376
+[v initSD@last_OSCTUNE last_OSCTUNE `Cuc  1 a 1 59 ]
+"375
+[v initSD@last_OSCCON last_OSCCON `Cuc  1 a 1 58 ]
+"377
+[v initSD@F3023 F3023 `[16]uc  1 s 16 F3023 ]
+"621
+} 0
+"37 D:\Users\Tyler\Documents\tyler\work\Prof Emami\Development Board Summer 2018\Development\samples\08_SD\08_SD_IO\08_SD_IO.X\SPI_PIC.c
+[v _spiInit spiInit `(v  1 e 1 0 ]
+{
+[v spiInit@divider divider `uc  1 a 1 wreg ]
+[v spiInit@divider divider `uc  1 a 1 wreg ]
+[v spiInit@divider divider `uc  1 a 1 0 ]
+"64
+} 0
+"28 D:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+{
+[v ___lwtoft@c c `ui  1 p 2 8 ]
+"31
+} 0
+"35 D:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\lltoft.c
+[v ___lltoft __lltoft `(f  1 e 3 0 ]
+{
+"37
+[v ___lltoft@exp exp `uc  1 a 1 16 ]
+"35
+[v ___lltoft@c c `ul  1 p 4 8 ]
+"46
+} 0
+"44 D:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+{
+"47
+[v ___fttol@lval lval `ul  1 a 4 42 ]
+"46
+[v ___fttol@exp1 exp1 `uc  1 a 1 46 ]
+[v ___fttol@sign1 sign1 `uc  1 a 1 41 ]
+"44
+[v ___fttol@f1 f1 `f  1 p 3 32 ]
+"73
+} 0
+"62 D:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+{
+"65
+[v ___ftmul@f3_as_product f3_as_product `um  1 a 3 27 ]
+"64
+[v ___ftmul@sign sign `uc  1 a 1 31 ]
+[v ___ftmul@cntr cntr `uc  1 a 1 30 ]
+[v ___ftmul@exp exp `uc  1 a 1 26 ]
+"62
+[v ___ftmul@f1 f1 `f  1 p 3 17 ]
+[v ___ftmul@f2 f2 `f  1 p 3 20 ]
+"157
+} 0
+"54 D:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+{
+"60
+[v ___ftdiv@f3 f3 `f  1 a 3 21 ]
+"59
+[v ___ftdiv@sign sign `uc  1 a 1 25 ]
+[v ___ftdiv@exp exp `uc  1 a 1 24 ]
+[v ___ftdiv@cntr cntr `uc  1 a 1 20 ]
+"54
+[v ___ftdiv@f1 f1 `f  1 p 3 11 ]
+[v ___ftdiv@f2 f2 `f  1 p 3 14 ]
+"86
+} 0
+"62 D:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+{
+[v ___ftpack@arg arg `um  1 p 3 0 ]
+[v ___ftpack@exp exp `uc  1 p 1 3 ]
+[v ___ftpack@sign sign `uc  1 p 1 4 ]
+"86
+} 0
+"69 D:\Users\Tyler\Documents\tyler\work\Prof Emami\Development Board Summer 2018\Development\samples\08_SD\08_SD_IO\08_SD_IO.X\lcd.c
+[v _initLCD initLCD `(v  1 e 1 0 ]
+{
+"88
+} 0
+"64
+[v _lcdInst lcdInst `(v  1 e 1 0 ]
+{
+[v lcdInst@data data `uc  1 a 1 wreg ]
+[v lcdInst@data data `uc  1 a 1 wreg ]
+[v lcdInst@data data `uc  1 a 1 3 ]
+"67
+} 0
+"55
+[v _send_byte send_byte `(v  1 s 1 send_byte ]
+{
+[v send_byte@data data `uc  1 a 1 wreg ]
+[v send_byte@data data `uc  1 a 1 wreg ]
+"57
+[v send_byte@data data `uc  1 a 1 2 ]
+"61
+} 0
+"44
+[v _send_nibble send_nibble `(v  1 s 1 send_nibble ]
+{
+[v send_nibble@data data `uc  1 a 1 wreg ]
+[v send_nibble@data data `uc  1 a 1 wreg ]
+"46
+[v send_nibble@data data `uc  1 a 1 1 ]
+"49
+} 0
+"28
+[v _pulse_e pulse_e `T(v  1 s 1 pulse_e ]
+{
+"29
+[v pulse_e@interruptState interruptState `uc  1 a 1 0 ]
+"38
+} 0
+"35 D:\Users\Tyler\Documents\tyler\work\Prof Emami\Development Board Summer 2018\Development\samples\08_SD\08_SD_IO\08_SD_IO.X\main.c
+[v _average average `(uc  1 e 1 0 ]
+{
+"37
+[v average@sum sum `ul  1 a 4 18 ]
+"36
+[v average@idx idx `us  1 a 2 22 ]
+"35
+[v average@array array `*.39uc  1 p 2 13 ]
+[v average@n n `us  1 p 2 15 ]
+"43
+} 0
+"8 D:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"11
+[v ___lldiv@quotient quotient `ul  1 a 4 8 ]
+"12
+[v ___lldiv@counter counter `uc  1 a 1 12 ]
+"8
+[v ___lldiv@dividend dividend `ul  1 p 4 0 ]
+[v ___lldiv@divisor divisor `ul  1 p 4 4 ]
+"31
+} 0
+"104 D:\Users\Tyler\Documents\tyler\work\Prof Emami\Development Board Summer 2018\Development\samples\08_SD\08_SD_IO\08_SD_IO.X\SD_PIC.c
+[v _SD_SingleBlockWrite SD_SingleBlockWrite `(uc  1 e 1 0 ]
+{
+"122
+[v SD_SingleBlockWrite@i i `us  1 a 2 18 ]
+"130
+[v SD_SingleBlockWrite@response response `uc  1 a 1 17 ]
+"104
+[v SD_SingleBlockWrite@block block `ul  1 p 4 10 ]
+[v SD_SingleBlockWrite@arr arr `*.39uc  1 p 2 14 ]
+"151
+} 0
+"239
+[v _SD_SingleBlockRead SD_SingleBlockRead `(uc  1 e 1 0 ]
+{
+"269
+[v SD_SingleBlockRead@i i `us  1 a 2 17 ]
+"251
+[v SD_SingleBlockRead@response response `uc  1 a 1 19 ]
+"239
+[v SD_SingleBlockRead@block block `ul  1 p 4 10 ]
+[v SD_SingleBlockRead@buf buf `*.39uc  1 p 2 14 ]
+"282
+} 0
+"222
+[v _SD_MBW_Stop SD_MBW_Stop `(v  1 e 1 0 ]
+{
+"237
+} 0
+"153
+[v _SD_MBW_Start SD_MBW_Start `(v  1 e 1 0 ]
+{
+[v SD_MBW_Start@startBlock startBlock `ul  1 p 4 15 ]
+[v SD_MBW_Start@numBlocks numBlocks `ul  1 p 4 19 ]
+"170
+} 0
+"97
+[v _SD_ACMD SD_ACMD `(uc  1 e 1 0 ]
+{
+[v SD_ACMD@cmd cmd `uc  1 a 1 wreg ]
+[v SD_ACMD@cmd cmd `uc  1 a 1 wreg ]
+[v SD_ACMD@arg arg `ul  1 p 4 10 ]
+"100
+[v SD_ACMD@cmd cmd `uc  1 a 1 14 ]
+"102
+} 0
+"172
+[v _SD_MBW_Send SD_MBW_Send `(uc  1 e 1 0 ]
+{
+"181
+[v SD_MBW_Send@i i `us  1 a 2 13 ]
+"180
+[v SD_MBW_Send@response response `uc  1 a 1 12 ]
+"172
+[v SD_MBW_Send@arrWrite arrWrite `*.39uc  1 p 2 10 ]
+"220
+} 0
+"47
+[v _SD_SendDummyBytes SD_SendDummyBytes `(v  1 e 1 0 ]
+{
+[v SD_SendDummyBytes@numBytes numBytes `uc  1 a 1 wreg ]
+"48
+[v SD_SendDummyBytes@n n `uc  1 a 1 4 ]
+"47
+[v SD_SendDummyBytes@numBytes numBytes `uc  1 a 1 wreg ]
+[v SD_SendDummyBytes@numBytes numBytes `uc  1 a 1 3 ]
+"53
+} 0
+"347
+[v _SD_MBR_Stop SD_MBR_Stop `(v  1 e 1 0 ]
+{
+"351
+} 0
+"284
+[v _SD_MBR_Start SD_MBR_Start `(uc  1 e 1 0 ]
+{
+"296
+[v SD_MBR_Start@response response `uc  1 a 1 15 ]
+"284
+[v SD_MBR_Start@startBlock startBlock `ul  1 p 4 10 ]
+"311
+} 0
+"313
+[v _SD_MBR_Receive SD_MBR_Receive `(v  1 e 1 0 ]
+{
+"328
+[v SD_MBR_Receive@i i `us  1 a 2 6 ]
+"313
+[v SD_MBR_Receive@bufReceive bufReceive `*.39uc  1 p 2 3 ]
+"345
+} 0
+"353
+[v _SD_EraseBlocks SD_EraseBlocks `(v  1 e 1 0 ]
+{
+[v SD_EraseBlocks@firstBlock firstBlock `ul  1 p 4 10 ]
+[v SD_EraseBlocks@lastBlock lastBlock `ul  1 p 4 14 ]
+"372
+} 0
+"55
+[v _SD_Command SD_Command `(uc  1 e 1 0 ]
+{
+[v SD_Command@cmd cmd `uc  1 a 1 wreg ]
+"86
+[v SD_Command@response response `uc  1 a 1 9 ]
+"85
+[v SD_Command@n n `uc  1 a 1 7 ]
+"55
+[v SD_Command@cmd cmd `uc  1 a 1 wreg ]
+[v SD_Command@arg arg `ul  1 p 4 3 ]
+[v SD_Command@cmd cmd `uc  1 a 1 8 ]
+"95
+} 0
+"29 D:\Users\Tyler\Documents\tyler\work\Prof Emami\Development Board Summer 2018\Development\samples\08_SD\08_SD_IO\08_SD_IO.X\SPI_PIC.c
+[v _spiSend spiSend `(v  1 e 1 0 ]
+{
+[v spiSend@val val `uc  1 a 1 wreg ]
+[v spiSend@val val `uc  1 a 1 wreg ]
+[v spiSend@val val `uc  1 a 1 2 ]
+"31
+} 0
+"33
+[v _spiReceive spiReceive `(uc  1 e 1 0 ]
+{
+"35
+} 0
+"14
+[v _spiTransfer spiTransfer `(uc  1 e 1 0 ]
+{
+[v spiTransfer@byteToTransfer byteToTransfer `uc  1 a 1 wreg ]
+[v spiTransfer@byteToTransfer byteToTransfer `uc  1 a 1 wreg ]
+"18
+[v spiTransfer@byteToTransfer byteToTransfer `uc  1 a 1 1 ]
+"27
+} 0
